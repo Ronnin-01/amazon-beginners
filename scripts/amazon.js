@@ -26,6 +26,9 @@ const products = [
     },
     priceCents: 799
   },
+  {
+    name: ""
+  },
 ];
 
 let productsHtml = '';
