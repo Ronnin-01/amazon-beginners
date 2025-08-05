@@ -1,3 +1,6 @@
+import { cart } from '../data/cart.js';
+
+const cart = [];
 
 let productsHtml = '';
 
@@ -81,7 +84,7 @@ document.querySelectorAll('.js-add-to-cart')
         let cartQuantity = 0;
 
         cart.forEach((item)=> {
-          cartQuantity += item.quantity;  
+          cartQuantity += item.quantity;
         });
 
         document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
